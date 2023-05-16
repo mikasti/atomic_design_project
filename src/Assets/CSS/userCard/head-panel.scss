@@ -1,0 +1,55 @@
+@import "../_variables.scss";
+
+.head-panel{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ min-width: 0px;
+ min-height: 80px;
+ background-color: $top-color-light;
+ border-radius: 8px 8px 0px 0px;
+ &--dark{
+  background-color: $top-color-dark;
+ }
+}
+
+.icon-chat{
+  width: 28px;
+  height: 28px;
+  margin-left: 28px;
+ .primary {
+  fill: #C2C7CE;
+ }
+ .secondary{
+  fill: #757F97;
+ }
+ &:hover{
+  .primary {
+   fill: #757F97;
+  }
+  .secondary{
+   fill: #C2C7CE;
+  }
+ }
+}
+
+.icon-star{
+ width: 28px;
+ height: 28px;
+ margin-right: 28px;
+ cursor: pointer;
+ .primary {
+  fill: #F4EAD1;
+ }
+ .secondary{
+  fill: #EBBA5C;
+ }
+ &:hover{
+  .primary {
+   fill: #EBBA5C;
+  }
+  .secondary{
+   fill: #F4EAD1;
+  }
+ }
+}
